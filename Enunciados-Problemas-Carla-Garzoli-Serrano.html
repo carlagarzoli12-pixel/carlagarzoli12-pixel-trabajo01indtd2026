@@ -359,10 +359,9 @@ display: none;
 
 <div id="problema-1-criterios-de-decisión-bajo-incertidumbre" class="section level1">
 <h1>Problema 1: Criterios de Decisión bajo Incertidumbre</h1>
-<p>Dadas las siguientes matrices de resultados, determine la alternativa
-óptima aplicando los distintos criterios de decisión bajo
-incertidumbre:</p>
-<p><strong>(a)</strong> <strong>FAVORABLE</strong>:</p>
+<p>Para cumplir con los requisitos, esta misma matriz se evaluará en dos
+escenarios distintos: primero asumiendo una situación de beneficios
+(favorable) y posteriormente una situación de costos (desfavorable).</p>
 <table>
 <thead>
 <tr class="header">
@@ -399,65 +398,44 @@ incertidumbre:</p>
 </tr>
 </tbody>
 </table>
-<p><strong>(b)</strong> <strong>DESFAVORABLE</strong>:</p>
-<table>
-<thead>
-<tr class="header">
-<th></th>
-<th align="center"><span class="math inline">\(e_1\)</span></th>
-<th align="center"><span class="math inline">\(e_2\)</span></th>
-<th align="center"><span class="math inline">\(e_3\)</span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span class="math inline">\(d_1\)</span></td>
-<td align="center">8</td>
-<td align="center">18</td>
-<td align="center">-3</td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(d_2\)</span></td>
-<td align="center">11</td>
-<td align="center">5</td>
-<td align="center">2</td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(d_3\)</span></td>
-<td align="center">4</td>
-<td align="center">15</td>
-<td align="center">-6</td>
-</tr>
-</tbody>
-</table>
 <div id="preguntas-del-problema-1" class="section level3">
 <h3>Preguntas del Problema 1:</h3>
 <ol style="list-style-type: decimal">
-<li>En la matriz primera (la a), según el criterio de Wald, es decir,
-segun el criterio pesimista, la alternativa óptima es
+<li>Considerando la matriz como una situación favorable (beneficios),
+según el criterio de Wald (pesimista), la alternativa óptima es
 <strong>d_1</strong>.</li>
-<li>En la matriz segunda (la b), según el criterio de Wald, la
-alternativa óptima es <strong>d_2</strong>.</li>
-<li>En la matriz segunda (la b), el valor mínimo posible de costo es -3,
-correspondiente a la alternativa <strong>d_1</strong>.</li>
-<li>En la matriz primera (la a), el valor máximo posible es 14.</li>
-<li>En la matriz primera (la a), según el criterio optimista, la
-alternativa óptima es la <strong>d_2</strong>.</li>
+<li>Considerando la matriz como una situación favorable, el valor máximo
+posible que se puede alcanzar es 14.</li>
+<li>Considerando la matriz como una situación desfavorable (costos),
+según el criterio de Wald, la alternativa óptima es
+<strong>d_2</strong>.</li>
+<li>Considerando la matriz como una situación desfavorable, el menor
+costo posible en toda la tabla es -4, correspondiente a la alternativa
+<strong>d_3</strong>.</li>
+<li>Si aplicamos el criterio optimista suponiendo que la matriz es de
+beneficios (favorable), la decisión óptima sería
+<strong>d_3</strong>.</li>
 </ol>
 </div>
 <div id="respuestas-del-problema-1" class="section level3">
 <h3>Respuestas del Problema 1:</h3>
 <ol style="list-style-type: decimal">
-<li><strong>Verdadero</strong> Es verdadera puesto que sabemos que el
-máximo de los mínimos es 5, que corresponde a d_1.</li>
-<li><strong>Verdadero</strong> Es verdadera puesto que sabemos que el
-mínimo de los máximos de costo es 11, correspondiente a d_2.</li>
-<li><strong>Falso</strong> Es falsa puesto que sabemos que el costo
-mínimo de toda la matriz es -6, en la alternativa d_3.</li>
-<li><strong>Falso</strong> Es falsa puesto que sabemos que el valor
-máximo es 15, que está en la alternativa d_3.</li>
-<li><strong>Falso</strong> Es falsa puesto que sabemos que el optimista
-elegiría d_3, ya que contiene el valor máximo absoluto de 15.</li>
+<li><strong>Verdadero</strong>. Es verdadera puesto que, en beneficios,
+los mínimos de cada alternativa son (5, 3, -4, -2). El máximo de esos
+mínimos es 5, que corresponde a d_1.</li>
+<li><strong>Falso</strong>. Es falsa puesto que sabemos que el valor
+máximo de toda la matriz es 15, que se encuentra en la alternativa d_3
+(estado e_3).</li>
+<li><strong>Falso</strong>. Es falsa puesto que, en costos, el criterio
+de Wald busca el mínimo de los máximos. Los máximos de cada alternativa
+son (12, 14, 15, 10). El mínimo de ellos es 10, que corresponde a
+d_4.</li>
+<li><strong>Verdadero</strong>. Es verdadera puesto que el valor mínimo
+absoluto de la matriz es -4, situado en la intersección de d_3 y
+e_1.</li>
+<li><strong>Verdadero</strong>. Es verdadera puesto que el optimista en
+beneficios buscaría el valor más alto de toda la matriz (15), por lo que
+elegiría d_3.</li>
 </ol>
 </div>
 </div>
