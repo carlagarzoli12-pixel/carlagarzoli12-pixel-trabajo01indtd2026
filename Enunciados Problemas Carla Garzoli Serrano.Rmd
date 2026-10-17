@@ -33,3 +33,10 @@ Dadas las siguientes matrices de resultados, determine la alternativa óptima ap
 4. En la matriz primera (la a), el valor máximo posible es 14.
 5. En la matriz primera (la a), según el criterio optimista, la alternativa óptima es la **d_2**.
 
+### Respuestas del Problema 1:
+1. **Verdadero** Es verdadera puesto que sabemos que el máximo de los mínimos es 5, que corresponde a d_1.
+2. **Verdadero** Es verdadera puesto que sabemos que el mínimo de los máximos de costo es 11, correspondiente a d_2.
+3. **Falso** Es falsa puesto que sabemos que el costo mínimo de toda la matriz es -6, en la alternativa d_3.
+4. **Falso** Es falsa puesto que sabemos que el valor máximo es 15, que está en la alternativa d_3.
+5. **Falso** Es falsa puesto que sabemos que el optimista elegiría d_3, ya que contiene el valor máximo absoluto de 15.
+
