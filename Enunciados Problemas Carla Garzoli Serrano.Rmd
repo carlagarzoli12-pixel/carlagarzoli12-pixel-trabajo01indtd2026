@@ -1,8 +1,10 @@
 ---
-title: "Enunciados Problemas"
+title: "Enunciado Problemas Carla Garzoli Serrano"
 author: "Carla Garzoli Serrano"
 date: "2026-10-17"
-format: typst
+format:
+  html: default
+  typst: default
 ---
 # Problema 1: Criterios de Decisión bajo Incertidumbre
 
