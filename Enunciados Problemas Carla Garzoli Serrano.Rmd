@@ -68,6 +68,11 @@ Puesto que son ingresos, consideramos que es una matriz favorable.
 4. El beneficio máximo posible que Carlos puede alcanzar en esta campaña es de 24.000 euros (24 en la tabla).
 5. Si finalmente ocurre que hay una Demanda Alta (e_3), la alternativa que da peores resultados es el **Pedido Pequeño (d_1)**.
 
-
+### Respuestas del Problema 2:
+1. **Verdadero** Es verdadera puesto que sabemos que en el criterio de Wald se busca el máximo de los mínimos (12, 6, -8), y el máximo es 12, que corresponde a d_1.
+2. **Falso** Es falsa puesto que sabemos que el optimista buscaría el beneficio más alto de toda la matriz, que es 50, por lo que la alternativa óptima es d_3.
+3. **Verdadero** Es verdadera puesto que sabemos que las medias de beneficio son 12 para d_1, 18 para d_2 y 20,67 para d_3, por lo que el criterio de Laplace elegiría d_3.
+4. **Falso** Es falsa puesto que sabemos que el beneficio máximo posible de toda la tabla es 50, lo que equivale a 50.000 euros, no a 24.000.
+5. **Verdadero** Es verdadera puesto que sabemos que en la columna de Demanda Alta (e_3), los beneficios son 12 para d_1, 24 para d_2 y 50 para d_3, por lo que el peor resultado es el de d_1.
 
 
