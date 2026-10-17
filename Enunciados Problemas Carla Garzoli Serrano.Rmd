@@ -2,7 +2,9 @@
 title: "Enunciado Problemas"
 author: "Carla Garzoli Serrano"
 date: "2026-10-17"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
 ---
 
 # Problema 1: Criterios de Decisión bajo Incertidumbre
