@@ -1,0 +1,27 @@
+---
+title: "Enunciado Problemas"
+author: "Carla Garzoli Serrano"
+date: "2026-10-17"
+output: html_document
+---
+
+# Problema 1: Criterios de Decisión bajo Incertidumbre
+
+Dadas las siguientes matrices de resultados, determine la alternativa óptima aplicando los distintos criterios de decisión bajo incertidumbre:
+
+**(a)** **FAVORABLE**:
+
+| | $e_1$ | $e_2$ | $e_3$ |
+|---|:---:|:---:|:---:|
+| $d_1$ | 12 | 5 | 9 |
+| $d_2$ | 3 | 14 | 6 |
+| $d_3$ | -4 | 8 | 15 |
+| $d_4$ | 10 | -2 | 4 |
+
+**(b)** **DESFAVORABLE**:
+
+| | $e_1$ | $e_2$ | $e_3$ |
+|---|:---:|:---:|:---:|
+| $d_1$ | 8 | 18 | -3 |
+| $d_2$ | 11 | 5 | 2 |
+| $d_3$ | 4 | 15 | -6 |
