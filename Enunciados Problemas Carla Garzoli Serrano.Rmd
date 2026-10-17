@@ -9,7 +9,7 @@ output:
 
 # Problema 1: Criterios de Decisión bajo Incertidumbre
 
-Para cumplir con los requisitos, esta misma matriz se evaluará en dos escenarios distintos: primero asumiendo una situación de beneficios (favorable) y posteriormente una situación de costos (desfavorable).
+Esta misma matriz se evaluará en dos escenarios distintos: primero asumiendo una situación de beneficios (favorable) y posteriormente una situación de costos (desfavorable).
 
 | | $e_1$ | $e_2$ | $e_3$ |
 |---|:---:|:---:|:---:|
