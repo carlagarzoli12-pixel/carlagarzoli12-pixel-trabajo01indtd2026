@@ -25,6 +25,7 @@ Esta misma matriz se evaluará en dos escenarios distintos: primero asumiendo un
 4. Considerando la matriz como una situación desfavorable, el menor costo posible en toda la tabla es -4, correspondiente a la alternativa **d_3**.
 5. Si aplicamos el criterio optimista suponiendo que la matriz es de beneficios (favorable), la decisión óptima sería **d_3**.
 
+
 # Problema 2: Problema de Situación real
 
 Carlos es el dueño de una de las jugueterías más famosas de toda Sevilla y se ve en la situación de que debe decidir cuanto stock comprar de un nuevo robot de juguete que parece que va a estar de moda en estas próximas navidades.
@@ -52,5 +53,3 @@ Puesto que son ingresos, consideramos que es una matriz favorable.
 3. Según el criterio de Laplace (asumiendo que las tres demandas son igual de probables), la mejor opción es el **Pedido Grande (d_3)**.
 4. El beneficio máximo posible que Carlos puede alcanzar en esta campaña es de 24.000 euros (24 en la tabla).
 5. Si finalmente ocurre que hay una Demanda Alta (e_3), la alternativa que da peores resultados es el **Pedido Pequeño (d_1)**.
-
-
