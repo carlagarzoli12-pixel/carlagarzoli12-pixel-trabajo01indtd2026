@@ -6,6 +6,7 @@ format:
   html: default
   typst: default
 ---
+
 # Problema 1: Criterios de Decisión bajo Incertidumbre
 
 Esta misma matriz se evaluará en dos escenarios distintos: primero asumiendo una situación de beneficios (favorable) y posteriormente una situación de costos (desfavorable).
